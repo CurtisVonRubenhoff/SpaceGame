@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581669b05d465cf41aa07e0987b42522, type: 3}
+  m_Name: Captain
+  m_EditorClassIdentifier: 
+  _displayName: Captain Picard
+  _portrait: {fileID: 21300000, guid: 8cb09f5b52e06a747b91b78f66f1c005, type: 3}
+  displayName: Captain Picard
+  rank: 6
+  portrait: {fileID: 0}
+  characterPrefab: {fileID: 0}
+  movementEvent: {fileID: 11400000, guid: 403aab1adf039254d96f70575b3de514, type: 2}
+  selectionEvent: {fileID: 11400000, guid: b248efc6520ff0e45ad652c5b267a3e3, type: 2}
+  interactionEvent: {fileID: 11400000, guid: db2c36887372d30449fbeedcd225369b, type: 2}

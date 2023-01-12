@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4540689384808471992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: Somewhere
+  children: []
+  _uniqueId: df98b038-582b-4e39-823e-9473cc9dc9f4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35851dfd8754a74b333944d50d05bbd, type: 3}
+  m_Name: Turbolift
+  m_EditorClassIdentifier: 
+  _nodes:
+  - {fileID: 2116997496616691025}
+  - {fileID: 5397348320540874049}
+  - {fileID: 6646864504830854012}
+  root: {fileID: 2116997496616691025}
+  scrollPosition: {x: 48827, y: 49525.5}
+--- !u!114 &2116997496616691025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8d0566afe4d5fa9596c80df966df6, type: 3}
+  m_Name: Root
+  m_EditorClassIdentifier: 
+  _uniqueId: 40285cf3-f83f-4905-9be5-597b436ba51c
+  rect:
+    serializedVersion: 2
+    x: 49627
+    y: 50105
+    width: 100
+    height: 57
+  nodeTitle: 
+  children:
+  - {fileID: 6646864504830854012}
+  conditions: []
+  enterActions: []
+  exitActions: []
+--- !u!114 &5397348320540874049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee683620015454489ed039e9cb805da, type: 3}
+  m_Name: Choice Hub
+  m_EditorClassIdentifier: 
+  _uniqueId: 80c3cafb-05c2-4ff1-8031-038d1762fd02
+  rect:
+    serializedVersion: 2
+    x: 50121
+    y: 50094
+    width: 200
+    height: 98
+  nodeTitle: 
+  children: []
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices:
+  - {fileID: 6765582388555245086}
+  - {fileID: -4540689384808471992}
+--- !u!114 &6646864504830854012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 6b3b6486-e323-4a66-a636-dad023820496
+  rect:
+    serializedVersion: 2
+    x: 49820
+    y: 50040
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 5397348320540874049}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: bbdf0d7f6fed81643a342679352b9f79, type: 2}
+  audio: {fileID: 0}
+  dialogue: Where to?
+--- !u!114 &6765582388555245086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb407621a43446dac370b409a9ddc29, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  text: Idk
+  children: []
+  _uniqueId: 04eeed8a-acf8-491d-848a-a8b082623043

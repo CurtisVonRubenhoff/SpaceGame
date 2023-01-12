@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9015810634104163431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 34c37d02-d8c2-4a8e-aa59-8a3f6efca0ff
+  rect:
+    serializedVersion: 2
+    x: 50189
+    y: 50166
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 4703394207487685569}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: bbdf0d7f6fed81643a342679352b9f79, type: 2}
+  audio: {fileID: 0}
+  dialogue: Does this shit work?
+--- !u!114 &-746844422402585709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8d0566afe4d5fa9596c80df966df6, type: 3}
+  m_Name: Root
+  m_EditorClassIdentifier: 
+  _uniqueId: b0fd0fb0-730c-4242-9550-8f53abd86e32
+  rect:
+    serializedVersion: 2
+    x: 50000
+    y: 50209
+    width: 100
+    height: 57
+  nodeTitle: 
+  children:
+  - {fileID: -9015810634104163431}
+  conditions: []
+  enterActions: []
+  exitActions: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35851dfd8754a74b333944d50d05bbd, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _nodes:
+  - {fileID: -746844422402585709}
+  - {fileID: -9015810634104163431}
+  - {fileID: 4703394207487685569}
+  - {fileID: 8710398160211287253}
+  root: {fileID: -746844422402585709}
+  scrollPosition: {x: 48827, y: 49520.5}
+--- !u!114 &4703394207487685569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: f3581efd-b266-416c-87e0-8048c719165c
+  rect:
+    serializedVersion: 2
+    x: 50471
+    y: 50140
+    width: 200
+    height: 146
+  nodeTitle: 
+  children:
+  - {fileID: 8710398160211287253}
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 102a9404d746e674d91dcd4ea90ef33c, type: 2}
+  audio: {fileID: 0}
+  dialogue: It's looking like it might be.
+--- !u!114 &8710398160211287253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f157564dbc846468ec0ac2b6f7d545e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _uniqueId: 8637be43-fcf6-4b33-b3fc-554ccbf356c1
+  rect:
+    serializedVersion: 2
+    x: 50729
+    y: 50239
+    width: 200
+    height: 146
+  nodeTitle: 
+  children: []
+  conditions: []
+  enterActions: []
+  exitActions: []
+  choices: []
+  actor: {fileID: 11400000, guid: 96d82233608b1d8489d26fc9fa2a6af4, type: 2}
+  audio: {fileID: 0}
+  dialogue: Idk seems broken to me, captain.
